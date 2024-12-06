@@ -7,7 +7,11 @@ public class Main{
 
     System.out.println("La espada seleccionada es: "+ sword1.name + " con un daño de "+ sword1.damage);
 
-
+    Axe axe = new Axe();
+axe.damage = 100;
+            System.out.println("Oh, un arbol.. Equipando "+ axe.type +" El damage es de "+ axe.damage);
+            axe.talarArbol();
+            
 
     //       // Metodo que sumen dos numeros
     //     //sumMethod(10, 30);
