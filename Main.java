@@ -13,6 +13,16 @@ axe.damage = 100;
             axe.talarArbol();
             
 
+            //Uno dique que a veces usa funciones anonimas para ahorrarse escribir y mira xD
+
+            Main greeting = new Main(){
+                public void greet(){
+                System.out.println("Hola. Supuestamente soy una funcion anonima, pero tuve que poner nombre y todo eso -_-");
+                }
+            };
+
+
+            
     //       // Metodo que sumen dos numeros
     //     //sumMethod(10, 30);
 
