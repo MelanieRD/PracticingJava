@@ -14,7 +14,7 @@ axe.damage = 100;
             
 
             //Uno dique que a veces usa funciones anonimas para ahorrarse escribir y mira xD
-
+            // Este ejemplo no esta bien, seguire mas tarde porque debo hacer tarea de la universidad
             Main greeting = new Main(){
                 public void greet(){
                 System.out.println("Hola. Supuestamente soy una funcion anonima, pero tuve que poner nombre y todo eso -_-");
